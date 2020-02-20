@@ -8,3 +8,7 @@
   margin-top: auto;
   background: aquamarine;
 }
+
+.active-tab {
+  font-weight: bold;
+}

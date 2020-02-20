@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { MainComponent } from './main/main.component';
+import { TrainingComponent } from './training/training.component';
+import { DictionaryComponent } from './dictionary/dictionary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    TrainingComponent,
+    DictionaryComponent
   ],
   imports: [
     BrowserModule,
