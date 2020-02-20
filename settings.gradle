@@ -1,0 +1,4 @@
+rootProject.name = 'wordinator'
+include 'backend'
+include 'frontend'
+

@@ -1,0 +1,27 @@
+.wordinator-main-background {
+  background-image: url("../../assets/img/89165211.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.wordinator-main-title {
+  font-family: monospace;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 20px;
+  animation: opacity 2s ease-in 1 forwards;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
